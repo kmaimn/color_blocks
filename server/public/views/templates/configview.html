@@ -2,6 +2,7 @@
 <p>Colors can only be added once!</p>
 <div class="row">
   <div class="col-md-4">
+    <!-- select option that is prepopulated from an array that contains color choices-->
     <form>
       <select class="color-picker" ng-model="newColor">
       <option class="color-choices" ng-disabled="newColor" ng-repeat="choice in choices" value="{{choice}}">{{choice}}</option>
